@@ -1,0 +1,90 @@
+/*
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 {
+    width: 80%;
+    max-width: 700px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; 
+    align-items: center;
+    border-radius: 10px;
+    background-color: #5b8af076;
+}
+
+button {
+    padding: 5px;
+    width: 100px;
+    background-color: rgb(76, 87, 240);
+    color: white;
+    border-style: none;
+}
+p {
+    color: green;
+    
+}
+
+*/
+
+body {
+    min-height: 100vh; /* Ensure full height centering */
+    margin: 0; /* Remove browser default margin */
+    background-color: white;
+    font-family: Arial, sans-serif; /* Add a clean font */
+    color: #333; /* Improve text contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.box1 {
+    width: 90%; /* Adjust for responsiveness */
+    max-width: 700px;
+    padding: 20px; /* Enhance spacing */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #5b8af076; /* Light background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle depth */
+}
+
+button {
+    padding: 10px; /* Add more padding */
+    width: 120px; /* Slightly wider button */
+    background-color: rgb(76, 87, 240); /* Primary color */
+    color: white;
+    border-style: none;
+    border-radius: 5px; /* Smooth corners */
+    cursor: pointer; /* Pointer for interactivity */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+    background-color: rgb(56, 67, 200); /* Darker hover state */
+}
+
+button:active {
+    background-color: rgb(36, 47, 160); /* Even darker active state */
+}
+
+p {
+    font-weight: bold; /* Emphasize feedback */
+    margin-top: 15px; /* Spacing from other elements */
+    text-align: center; /* Center-align text */
+}
+
+@media  screen and (max-width:335px) {
+    body {
+        background-color: azure;
+        text-align: center;
+    }
+}
