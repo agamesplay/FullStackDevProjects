@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skillsRange</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="for-bg">
+
+        <div class="form-group">
+            <i class="fa-solid fa-code" style="font-size: 40px;"></i>
+            <h1>Rate Your Skills</h1>
+
+            <label for="name">Name:
+                <input type="text" id="name" placeholder="enter your name">
+
+            </label>
+            <br>
+            <label for="html">HTML Skill Out Of 100 :
+                <input type="number" id="html">
+
+            </label>
+            <br>
+            <label for="css">CSS Skill Out Of 100 :
+                <input type="number" id="css">
+
+            </label>
+            <br>
+            <label for="js">JavaScript
+                Skill Out Of 100 :
+                <input type="number" id="js">
+
+            </label>
+
+            <button onclick="subMit()" class="styled-button">Submit</button>
+
+        </div>
+
+    </div>
+
+    <div class="title">
+        <h2>Row Skills:</h2>
+    </div>
+    <div class="box1">
+
+
+
+    </div>
+    <div class="title">
+
+        <h2>Percentages:</h2>
+    </div>
+    <div class="box2">
+
+
+
+    </div>
+    <div class="title">
+
+        <h2>Now Skill Range Is:</h2>
+    </div>
+    <div class="box3">
+
+
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+
+<h1>Skill Range</h1>
+<div class="form-group">
+    <label for="name">
+        Your Name:
+        <input type="text" id="name" placeholder="Type here">
+    </label>
+    <button onclick="subMit()">Submit</button>
+</div>
+<div id="box1"></div>
+
+<script>
+function subMit() {
+    let name = document.getElementById("name").value;
+
+    if (!name) {
+        alert("Please insert your name");
+        return;
+    }
+
+    let result = `<p>Your name: ${name}</p>`;
+    let box1 = document.getElementById("box1");
+    box1.innerHTML = result;
+}
+</script> -->
