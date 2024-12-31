@@ -1,0 +1,166 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-shadow: 2px 5px 16px white;
+    text-decoration: underline rgb(255, 111, 0);
+    text-align: center;
+    margin: 20px 0;
+    font-size: 40px;
+
+}
+
+
+.img-box {
+    position: relative;
+    height: 70vh;
+    max-height: 70vh;
+    max-width: 700px;
+    width: 80%;
+    border: 2px solid red;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.con-box {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50;
+    padding: 10px;
+    z-index: 2;
+    text-align: center;
+    text-shadow: 2px 4px 17px white;
+}
+
+@media screen and (max-width: 310px) {
+    body {
+        font-size: 12px;
+    }
+
+    .con-box {
+        font-size: 12px;
+        width: 60%;
+        background-color: #0000;
+        border: none;
+    }
+
+    #icon {
+        font-size: rem;
+    }
+
+}
+
+
+#icon {
+    position: fixed;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    cursor: pointer;
+    color: black;
+}
+
+footer {
+    height: 90px;
+    background-color: rgba(128, 128, 128, 0.367);
+    border-radius: 7px;
+    width: 95%;
+    margin: 10px;
+    box-shadow: 0px 5px 10px grey;
+
+}
+
+footer p {
+    color: rgb(18, 7, 7);
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style the range input */
+input[type="range"] {
+    appearance: none;
+    -webkit-appearance: none;
+    /* Remove default styling */
+    /* width: 300px;  */
+    height: 6px;
+    /* Height of the track */
+    background: linear-gradient(to right, #4caf50, #f44336);
+    /* Custom gradient for the track */
+    border-radius: 3px;
+    /* Rounded corners */
+    outline: none;
+    /* Remove focus outline */
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+/* Style the thumb (the draggable part) */
+/* (Chrome, Safari). */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    width: 20px;
+    /* Width of the thumb */
+    height: 20px;
+    /* Height of the thumb */
+    background: #2196f3;
+    /* Blue color */
+    border-radius: 50%;
+    /* Make it circular */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    /* Add some shadow */
+}
+
+/* For Firefox. */
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #2196f3;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* For Internet Explorer/Edge. */
+
+input[type="range"]::-ms-thumb {
+    width: 20px;
+    height: 20px;
+    background: #2196f3;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Add hover effect on thumb */
+input[type="range"]::-webkit-slider-thumb:hover {
+    background: #0d47a1;
+    /* Darker blue on hover */
+}
+
+/* Add focus styles */
+input[type="range"]:focus {
+    box-shadow: 0 0 5px rgba(33, 150, 243, 0.6);
+    /* Glow effect */
+}

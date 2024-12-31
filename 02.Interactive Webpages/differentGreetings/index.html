@@ -1,0 +1,48 @@
+<!-- 
+ this is a basic project using else if conditional statement & basic DOM manipulation.
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DrfferentGreetings</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <h1 id="headingOne">Show Different Greetings</h1>
+
+    <div class="img-box">
+        <img id="greetingImg" src=" " alt="Greetings images">
+    </div>
+    <div class="con-box">
+        <h2 id="greetingMsg">Rise and shine</h2>
+        <h3 id="greetingTime">Time: 00:00</h3>
+        <label>0:00
+            <input id="sliderRange" onchange="timeSlider()" type="range" min="0" max="23" value="00" step="01">
+            23:00</label>
+        <p>Move the slider to change the time!</p>
+    </div>
+    <p><i id="icon" onclick="changeIcon()" class="fa-solid fa-sun"></i> </p>
+
+    <footer>
+        <p id="fp">&copy; 2024 Year B.k.m. All rights reserved. <br> I &#x2764; coding!</p>
+
+
+    </footer>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
