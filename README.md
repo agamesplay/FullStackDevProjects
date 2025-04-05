@@ -48,8 +48,8 @@ The project contains the following files:
     <option value="blue">Blue</option>
 </select>
 <p id="ptext"></p>
-
-# Guessing Game Project
+```
+## Guessing Game Project
 
 A simple number guessing game built with HTML, CSS, and JavaScript. The game generates a random number between 1 and 100, and the player has to guess it within a limited number of attempts.
 
