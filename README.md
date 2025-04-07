@@ -74,3 +74,24 @@ A simple number guessing game built with HTML, CSS, and JavaScript. The game gen
 ## License
 
 [This project is licensed under the MIT License.]
+
+# ☕ Code & Brave Café - Coffee Shop Menu
+
+Welcome to the **Code & Brave Café** — a cozy little frontend project that showcases a simple and stylish coffee shop menu using **HTML** and **CSS**.
+
+This project is perfect for practicing responsive layouts, custom fonts, and clean UI presentation.
+
+---
+
+## 🚀 Project Features
+
+- 🧁 **Menu List** with popular coffee and snacks
+- 🎨 **Custom Fonts** and soft color themes for a café vibe
+- 📱 **Responsive Design** — adapts to different screen sizes
+- 🖼️ **Café Image** for visual appeal
+- 💡 Minimal and clean layout with proper HTML5 structure
+
+---
+
+## 📁 Folder Structure
+
